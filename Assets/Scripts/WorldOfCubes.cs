@@ -23,7 +23,7 @@ public class WorldOfCubes : MonoBehaviour
                 for (int x = 0; x < size; x++)
                 {   
                     Vector3 pos = new Vector3(x, y, z);
-                    GameObject cube = GameObject.Instantiate(block, pos, Quaternion.identity);
+                    GameObject.Instantiate(block, pos, Quaternion.identity);
                 }
             }
         }

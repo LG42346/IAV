@@ -56,10 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\WorldOfCubes.cs" />
     <Compile Include="Assets\Scripts\CreateQuad.cs" />
+    <Compile Include="Assets\Scripts\Chunk.cs" />
+    <Compile Include="Assets\Scripts\WorldOfBlocks.cs" />
+    <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\WorldOfCubes.cs" />
+    <Compile Include="Assets\Grapher\SettingsWindow.cs" />
+    <Compile Include="Assets\Grapher\Example\DataProvider.cs" />
+    <Compile Include="Assets\Grapher\FileHandler.cs" />
+    <Compile Include="Assets\Grapher\GraphSettings.cs" />
+    <Compile Include="Assets\Grapher\Grapher.cs" />
+    <Compile Include="Assets\Grapher\Channel.cs" />
+    <Compile Include="Assets\Grapher\Grapher.Replay.cs" />
+    <Compile Include="Assets\Grapher\TimeKeeper.cs" />
+    <Compile Include="Assets\Grapher\Sample.cs" />
+    <Compile Include="Assets\Grapher\OpenInFileBrowser.cs" />
+    <Compile Include="Assets\Grapher\Grapher.Draw.cs" />
+    <Compile Include="Assets\Scripts\PerlinTest.cs" />
+    <Compile Include="Assets\Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Grapher\IMPORTANT_README!.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Users\alexg\OneDrive - Instituto Superior de Engenharia de Lisboa\Documents\Unity\2020.3.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
